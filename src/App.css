@@ -203,7 +203,6 @@ h4{
   background-color: #FBB9C5;
 }
 
-/* For the survey form container */
 .survey-form {
   max-width: 600px;
   margin: 0 auto;
@@ -211,35 +210,29 @@ h4{
   font-family: 'Chakra Petch', sans-serif;
 }
 
-/* To space out the question from the button and options */
 .question-block {
   margin-bottom: 2rem;
 }
 
-/* Style for the question text */
 .question-block label {
   display: block;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  color: #567CBD; /* You can choose your own color */
+  color: #567CBD;
 }
 
-/* Spacing for the play button */
 .audio-button {
   margin-top: 1rem;
-  margin-bottom: 2rem; /* Adds space between play button and options */
-}
+  margin-bottom: 2rem; 
 
-/* Stack options vertically with enough space between */
 .options {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; /* or space-between for tighter spacing */
-  gap: 1.25rem; /* Increased gap for more spacing between options */
+  justify-content: space-evenly; 
+  gap: 1.25rem;
   margin-top: 1.5rem;
 }
 
-/* Style for individual option labels */
 .option-label {
   display: flex;
   align-items: center;
@@ -248,19 +241,17 @@ h4{
   margin-bottom: 0.75rem;
 }
 
-/* Ensure buttons are spaced properly */
 button {
   margin-right: 0.75rem;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
-  background-color: #EB7096; /* Add color to buttons */
+  background-color: #EB7096; 
   border: none;
   border-radius: 5px;
   color: white;
 }
 
-/* For better spacing on navigation buttons */
 .nav-buttons {
   margin-top: 2rem;
   margin-bottom: 2rem;
