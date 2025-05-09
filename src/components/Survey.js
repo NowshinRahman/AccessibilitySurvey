@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import AudioButton from "./AudioButton";
 import Modal from "./Modal";
 
-// Audio imports
 import q1 from "../assets/Question1.mp3";
 import q2 from "../assets/Question2.mp3";
 import q3 from "../assets/Question3.mp3";
@@ -261,8 +260,8 @@ const imageMappings = {
 };
 
 const Survey = () => {
-  const [step, setStep] = useState(1); // Step 1 = intro, 2 = name input, 3 = survey
-  const [name, setName] = useState(""); // User name input
+  const [step, setStep] = useState(1); 
+  const [name, setName] = useState("");
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [responses, setResponses] = useState(() => {
     const initialResponses = {};
