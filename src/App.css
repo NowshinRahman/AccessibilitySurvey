@@ -113,14 +113,14 @@ button {
   background: #858FB4;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px #EB7096;
+  box-shadow: 0 4px 8px #7083eb;
   text-align: center;
 }
 
 h2 {
   font-family: 'Lora', sans-serif;
   font-size: 1.3rem;
-  color: #EBBAC2;
+  color: #d8197c;
 }
 
 .overlay {
@@ -233,7 +233,8 @@ h4{
 /* Stack options vertically with enough space between */
 .options {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly; /* or space-between for tighter spacing */
   gap: 1.25rem; /* Increased gap for more spacing between options */
   margin-top: 1.5rem;
 }
